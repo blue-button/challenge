@@ -1,74 +1,326 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Challenge : Redesigning the patient medical record" />
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Health Design Challenge: d+collab // THE PATIENT RECORD</title>
+	<meta name="description" content="It's time for the patient medical record to get a refresh. Together, we can design a healthy America.">
+	<meta name="author" content="ONC and VA">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Challenge</title>
-  </head>
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 
-  <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/blue-button/challenge">View on GitHub</a>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="js/jquery.masonry.min.js"></script>
 
-          <h1 id="project_title">Challenge</h1>
-          <h2 id="project_tagline">Redesigning the patient medical record</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/blue-button/challenge/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/blue-button/challenge/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+</head>
+<body>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+	<!-- Primary Page Layout
+	================================================== -->
 
-<h3>Rather Drive Stick?</h3>
+	<!-- Delete everything in this .container and get started on your own site! -->
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+	<div class="container">
 
-<h3>Authors and Contributors</h3>
+	<!-- Header
+	================================================== -->
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+		<hr class="thick" />
 
-<h3>Support or Contact</h3>
+		<div class="thirteen columns">
+			<img class="scale-with-grid" style="margin: 10px 0px 20px 0px" src="images/logo.png"><h1 class="header-title">d+collab // THE PATIENT RECORD</h1>
+		</div>
+		<div class="three columns">
+			<p style="margin: 15px 0px 20px 0px">$50,000 in awards <br /> 25 days left</p>
+		</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+		<hr />
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Challenge maintained by <a href="https://github.com/blue-button">blue-button</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+		<div class="thirteen columns">
+			<p class="call-to-action">It's time for the patient medical record to get a refresh. Together, we can design a healthy America.</p>
+		</div>
+		<div class="three columns">
+			<p class="blue-button"><a href="http://challenge.gov">Submit Entry</a></p>
+		</div>
 
-    
+		<div class="sixteen columns">
+			<img class="scale-with-grid" style="margin-bottom: -6px" src="images/old.jpg">
+			<p class="call-to-action-two"><b>We can do better than this.</b> ONC &amp; VA invites you to rethink how the medical record is presented. We believe designers can use their talents to make health information patient-centered and improve the patient experience.</p>
+		</div>
 
-  </body>
+		<div class="sixteen columns sponsors">
+			<p>This effort is supported by:
+			<img class="sponsor" src="images/sponsor-onc.png"> 
+			<img class="sponsor" src="images/sponsor-va.png"> 
+			<img class="sponsor" src="images/sponsor-rockhealth.png"> 
+			<img class="sponsor" src="images/sponsor-df.png"> 
+			<img class="sponsor" src="images/sponsor-chcf.png"> 
+			<img class="sponsor" src="images/sponsor-luxr.png"> 
+			</p> 
+		</div>
+
+	<!-- Your Challenge
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>Your Challenge</h2>
+		</div>
+
+		<hr />
+
+		<div class="one-third column center">
+			<img src="images/challenge-1.png">
+			<p>Take the continuity of care <br/>document that exists today</p>
+		</div>
+
+		<div class="one-third column center">
+			<img src="images/challenge-2.png">
+			<p>Reimagine the patient experience by improving the usability and layout</p>
+		</div>
+
+		<div class="one-third column center">
+			<img src="images/challenge-3.png">
+			<p>Top designs will recieve a total of <b>$50,000</b> in awards</p>
+		</div>
+
+	<!-- Impact
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>Your Design Will Impact The Future of Healthcare</h2>
+		</div>
+
+		<hr />
+
+		<div class="one-third column center">
+			<img src="images/impact-1.png">
+			<p>We will showcase the best designs for the industry to learn from and be inspired by</p>
+			<p class="subtext">(Online and at an exhibit in Washington DC)</p>
+		</div>
+
+		<div class="one-third column center">
+			<img src="images/impact-2.png">
+			<p>A combination of the winning designs will be built and open-sourced on Github</p>
+			<p class="subtext">(This will be like <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> for health records)</p>
+		</div>
+
+		<div class="one-third column center">
+			<img src="images/impact-3.png">
+			<p>EMRs across the country can integrate it into their products and contribute to the project</p>
+			<p class="subtext">(The VA wants to use this design for the 6.8M Veterans who recieve care from them)</p>
+		</div>
+
+	<!-- Status Quo
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>What It Looks Like Today</h2>
+		</div>
+
+		<hr />
+
+		<div class="row">
+
+			<div class="ten columns">
+				<img class="scale-with-grid" src="images/status-quo.png">
+			</div>
+
+			<div class="six columns">
+				<p>Blue Button was developed by the Department of Veterans Affairs and gave Veterans and their families access to their health records. The first version was limited to text. For patients with many health conditions, the record became unwieldy because of the lack of presentation and hierachy.</p>
+			</div>
+
+		</div>
+
+	<!-- Design Requirements
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>Design Objectives</h2>
+		</div>
+
+		<hr />
+
+		<div class="sixteen columns">
+			<ol>
+				<li><b>Improve the visual layout and style</b> of the information from the medical record</li>
+				<li>Create a human-centered design that makes it <b>easier for patient to manage their health</b></li>
+				<li>Enable health professionals to <b>more effectively understand</b> and use patients' health information</li>
+				<li><b>Help family members and friends</b> care for their loved ones</li>
+			</ol>
+		</div>
+
+		<div class="one-third column">
+			<p class="dark-button"><a href="#">See list of required fields and sections</a></p>
+		</div>
+
+	<!-- Inspiration
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>Inspiration</h2>
+		</div>
+
+		<hr />
+
+		<div class="sixteen columns">
+			<p>There are a handful of resources and works on the web for you to learn from and be inspired by.</p>
+		</div>
+
+		<div id="inspiration" class="sixteen columns">
+
+			<div class="item">
+				<a href="http://www.wired.com/magazine/2010/11/ff_bloodwork/all/"><img class="scale-with-grid" src="images/wired-mag.png"></a>
+				<p>Blood Test Gets a Makeover <br/> <b>Wired Magazine</b></p>
+			</div>
+
+			<div class="item">
+				<a href="http://www.chcf.org/projects/2012/project-synapse-ccd-design"><img class="scale-with-grid" src="images/chcf-synapse.png"></a>
+				<p>Project Synapse <br/> <b>California HealthCare Foundation</b></p>
+			</div>
+
+
+			<div class="item">
+				<a href="http://dribbble.com/kerem/projects/3316-Fitbit"><img class="scale-with-grid" src="images/dribbble.png"></a>
+				<p>Fitbit Dashboard Designs &amp; Sketches<br/> <b>Dribbble - Kerem Suer</b></p>
+			</div>
+
+			<div class="item">
+				<a href="http://www.ted.com/talks/thomas_goetz_it_s_time_to_redesign_medical_data.html"><img class="scale-with-grid" src="images/tedmed.png"></a>
+				<p>It's time to redesign medical data<br/> <b>TEDMED - Thomas Goetz</b></p>
+			</div>
+
+		</div>
+
+
+
+
+
+	<!-- Awards
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>Awards</h2>
+		</div>
+
+		<hr />
+
+		<div class="sixteen columns">
+			<p>Each submission will be considered for all four award categories listed below. A review panel will select winners based on defined criteria. An individual submission can win multiple awards.</p>
+		</div>
+
+		<div class="five columns">
+			<p><span class="award-amount">$50,000</span></p>
+		</div>
+
+		<div class="two columns">
+			 <img src="images/rightarrows.png">
+		</div>
+
+		<div class="eight columns award-list">
+			<ul>
+				<li><b>Overall Design</b> - $16,000 (1st), $6,000 (2nd), and $4,000 (3rd)</li>
+				<li><b>Best Medication Section</b> - $5,000 (1st), $3,000 (2nd), and $1,000 (3rd)</li>
+				<li><b>Best Problem History Section</b> - $5,000 (1st), $2,000 (2nd), and $1,000 (3rd)</li>
+				<li><b>Best Lab Summaries</b> - $5,000 (1st), $2,000 (2nd), and $1,000 (3rd)</li>
+			</ul>
+		</div>
+
+		<hr />
+
+		<div class="eight columns">
+			<p>The most innovative designs will be showcased in an online gallery and in a physical exhibit at the Annual ONC Meeting in Washington DC. </p>
+		</div>
+
+
+		<div class="eight columns">
+			<p>A panel of curators will select a final design (that may combine elements of numerous winning designs) that will be built and open-sourced on the code sharing community Github.</p>
+		</div>
+
+	<!-- Submit
+	================================================== -->
+
+		<hr class ="thick" />
+
+		<div class="sixteen columns">
+			<h2>Submit Your Entry</h2>
+		</div>
+
+		<hr />
+
+		<div class="eight columns">
+			<p style="margin-top:5px;">All entires are due before November 30, 2012 at Midnight. Read the complete rules <a href="#">here</a>.</p>
+		</div>
+
+		<div class="eight columns">
+			<p class="blue-button"><a href="http://challenge.gov">Click to Submit Entry</a></p>
+		</div>
+
+	<!-- Footer
+	================================================== -->
+
+		<hr class ="thick" />
+
+
+		
+
+	</div><!-- container -->
+
+<script>
+	$(function(){
+	  $('#inspiration').masonry({
+	    // options
+	    itemSelector : '.item',
+	    isResizable: true,
+	    isAnimated: true
+	  });
+	});
+</script>
+
+
+<!-- End Document
+================================================== -->
+</body>
 </html>
