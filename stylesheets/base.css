@@ -382,3 +382,59 @@
 	margin-bottom: 0px;
 }
 
+.first-arrow{
+	position: absolute;
+	left: 220px;
+	margin-top: 20px;
+}
+
+.second-arrow{
+	position: absolute;
+	left: 560px;
+	visibility: visible;
+	margin-top: 10px;
+}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.wide-only{
+			display: none;
+		}
+
+		.call-to-action {
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.wide-only{
+			display: none;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.wide-only{
+			display: none;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		.wide-only{
+			display: none;
+		}
+
+		.call-to-action {
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
+
