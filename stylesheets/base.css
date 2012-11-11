@@ -399,6 +399,11 @@
 	border: 1px solid #ddd; 
 }
 
+.reviewer{
+	font-size: 13px;
+	line-height: 16px;
+}
+
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {}
 
