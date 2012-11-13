@@ -1,0 +1,132 @@
+# Demographics
+First Name: Ellen
+Last Name: Ross
+Gender: Female
+Martial Status: Married
+Religious Affiliation: Christian
+Ethnicity: Asian
+Language Spoken: English
+Address: 17 Daws Road, Portland, OR 97006
+Telephone: 415-555-1229
+Birthday: March 7, 1960
+
+
+# Guardian
+Role: Sister
+First Name: Martha
+Last Name: Shan
+Address: 1357 Amber Drive, Beaverton, OR 97006
+Telephone: 816-276-6909
+
+
+# Provider
+Name of Provider: Ashby Medical Center
+Address: 1002 Healthcare Dr, Portland, OR 97266
+Telephone: 415-555-1200
+
+
+# Allergies
+Allergy Name: Penicillin
+Reaction: Hives
+Severity: Moderate to severe
+
+Allergy Name: Codeine
+Reaction: Shortness of Breath
+Severity: Moderate
+
+Allergy Name: Bee Stings
+Reaction: Anaphylactic Shock
+Severity: Severe
+
+
+# Immunizations
+Date: May 2001
+Immunization Name: Influenza virus vaccine, IM
+Type: Intramuscular injection
+Dose Quantity (value / unit): 50 / mcg
+Education/Instructions: Possible flu-like symptoms for three days
+
+Date: April 2000
+Immunization Name: Tetanus and diphtheria toxoids, IM
+Type: Intramuscular injection
+Dose Quantity (value / unit) 50 / mcg
+Education/Instructions: Mild pain or soreness in the local area
+
+
+# Medication
+Date: March 28, 2005
+Type: Liquid
+Name of Medication: Acetaminophen with codiene
+Instructions: 2 puffs once a day
+Dose Quantity (value / unit): 2 / puffs
+Rate Quantity (value / unit): 1 / day
+Name of Prescriber: Ashby Medical Center
+
+Date: December 10, 2003
+Type: Tablet
+Name of Medication: Indomethacin
+Instructions: 50mg bid with food
+Dose Quantity (value / unit): 50 / mg
+Rate Quantity (value / unit): 2 / day
+Name of Prescriber: Ashby Medical Center
+
+
+# Plan of Care
+Planned Activity Name: Office consultation
+Planned Date: May 28, 2007
+Instructions: Consultation with Dr. George Potomac for Asthma
+
+Planned Activity Name: Chest X-Ray
+Planned Date: June 1, 2007
+Instructions: 
+
+Planned Activity Name: Sputum Culture
+Planned Date: May 28, 2007
+Instructions: 
+
+
+# Encounters
+Encounter: ED Visit for Ankle Sprain
+Provider: Dr. Henry Seven
+Location: Community Hospital
+Date: March 28, 2005
+
+Encounter: Gall Bladder Surgery
+Provider: Dr. Bala Venktaraman
+Location: Ashby Medical Center
+Date: September 28, 2002
+
+Encounter: Labor and Delivery
+Provider: Dr. Tiffany Martinez
+Location: Ashby Medical Center
+Date: March 21, 2002
+
+Encounter: ED Visit for Acute Cholecystitis
+Provider: Dr. Tim Lee
+Location: Ashby Medical Center
+Date: October 28, 2001
+
+
+# Problem List
+Observation: Ankle Sprain
+Status: Active
+Date: March 28, 2005
+Comments: Slipped on ice and fell.
+
+Observation: Cholecystitis
+Status: Resolved
+Date: September 28, 2002
+Comments: Surgery postponed until after delivery
+
+
+# Procedures
+Procedure: Laparoscopic Cholecystectomy 
+Date: September 28, 2002
+Provider: Dr. Bala Venktaraman
+Location: Ashby Medical Center
+
+Procedure: Cesarian Section
+Date: March 22, 2002
+Provider: Dr. Tiffany Martinez
+Location: Ashby Medical Center 
+
