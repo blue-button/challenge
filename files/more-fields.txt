@@ -131,3 +131,29 @@ Procedure: LASIK
 Provider: Dr. Priya Subramanian
 Location: Tesla Vision Institute
 Date: March 10, 2004
+
+
+=====================================================
+
+#Lab Results
+
+Lipid Panel - November 2005
+Cholesterol: 240 MG/DL - (Target: <200)
+HDL: 43 MG/DL - (Target: >40)
+Cholesterol, NON-HDL: 76 MG/DL		
+Triglyceride: 202 MG/DL (Target: <150)
+LDL: 241 MG/DL
+
+Lipid Panel - November 2003
+Cholesterol: 180 MG/DL - (Target: <200)
+HDL: 60 MG/DL - (Target: >40)
+Cholesterol, NON-HDL: 76 MG/DL		
+Triglyceride: 112 MG/DL (Target: <150)
+LDL: 149 MG/DL
+
+Lipid Panel - November 2000
+Cholesterol: 119 MG/DL - (Target: <200)
+HDL: 40 MG/DL - (Target: >40)
+Cholesterol, NON-HDL: 76 MG/DL		
+Triglyceride: 49 MG/DL (Target: <150)
+LDL: 66 MG/DL
