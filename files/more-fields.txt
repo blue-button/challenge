@@ -1,0 +1,133 @@
+# Allergies
+Allergy Name: Soy
+Reaction: Hives and itching
+Severity: Moderate
+
+Allergy Name: Shellfish
+Reaction: Hives
+Severity: Moderate
+
+Allergy Name: Peanuts
+Reaction: Anaphylactic shock
+Severity: Severe
+
+Allergy Name: Latex
+Reaction: Hives and difficulty breathing
+Severity: Moderate to Severe
+
+Allergy Name: Dogs/Pets
+Reaction: Sneezing and runny nose
+Severity: Moderate
+
+
+
+# Immunizations
+Date: February 2003
+Immunization Name: Pneumococcal polysaccharide
+Type: Intramuscular injection
+Dose Quantity (value / unit): 0.5 / mL
+Education/Instructions: Soreness and swelling in injection site
+
+Date: June 2003
+Immunization Name: Meningococcal Conjugate
+Type: Intramuscular injection
+Dose Quantity (value / unit) 0.5 / mL
+Education/Instructions: Brief fainting spells
+
+Date: April 2004
+Immunization Name: Hepatitis B
+Type: Intramuscular injection
+Dose Quantity (value / unit) 0.5 / mL
+Education/Instructions: Soreness at the injection site
+
+Date: September 2001
+Immunization Name: Rabies
+Type: Intramuscular injection
+Dose Quantity (value / unit) 1.0 / mL
+Education/Instructions: Soreness and redness at the injection site
+
+
+
+# Medication
+Date: February 10, 2002
+Type: Tablet
+Name of Medication: Naproxen
+Instructions: 2 pills a day
+Dose Quantity (value / unit): 1 / tablet
+Rate Quantity (value / unit): 2 / day
+Name of Prescriber: Ashby Medical Center
+
+Date: September 19, 2005
+Type: Tablet
+Name of Medication: Lipitor
+Instructions: One pill a day
+Dose Quantity (value / unit): 1 / pill
+Rate Quantity (value / unit): 1 / day
+Name of Prescriber: Ashby Medical Center
+
+Date: May 13, 2001
+Type: Tablet
+Name of Medication: Klonopin
+Instructions: One pill 2-3 times a day
+Dose Quantity (value / unit): 1 / pill
+Rate Quantity (value / unit): 2-3 / day
+Name of Prescriber: Ashby Medical Center
+
+
+
+# Plan of Care
+Planned Activity Name: MRI
+Planned Date: October 21, 2007
+Instructions: 
+
+Planned Activity Name: Pap Smear
+Planned Date: July 15, 2007
+Instructions: 
+
+Planned Activity Name: Needle Biopsy
+Planned Date: May 15, 2007
+Instructions: 
+
+
+
+# Encounters
+Encounter: Annual Physical Exam
+Provider: Dr. Candice Shah
+Location: Ashby Medical Center
+Date: February 2, 2007
+
+Encounter: Alopecia
+Provider: Dr. Fred Gambini
+Location: Ashby Medical Center
+Date: June 12, 2006
+
+
+
+# Problem List
+Observation: Migraine headache
+Status: Active
+Date: Feb 2, 2003
+Comments: Blinding pain and sensitivity to light
+
+Observation: Vertigo
+Status: Active
+Date: October 15, 2005
+Comments: Feels dizzy while at work
+
+
+
+# Procedures
+Procedure: ACL Surgery
+Provider: Dr. John Kindle
+Location: Ashby Medical Center
+Date: August 15, 2003
+
+Procedure: Nephrolithotripsy 
+Provider: Dr. Meredith Yao
+Location: Ashby Medical Center
+Date: June 15, 2005
+
+Procedure: LASIK
+Provider: Dr. Priya Subramanian
+Location: Tesla Vision Institute
+Date: March 10, 2004
