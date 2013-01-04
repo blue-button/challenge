@@ -404,8 +404,14 @@
 	line-height: 16px;
 }
 
-.showcase img{
-	border: 1px solid #ddd; 
+
+.bg{
+	background-color: #3e4448;
+	padding: 0px 0px 10px 0px;
+}
+
+.row.bg{
+	margin-bottom: 30px;
 }
 
 .showcase .hero{
@@ -413,16 +419,16 @@
 }
 
 .showcase.about{
-	background-color: #3f4448;
-	border: 1px solid #3f4448;
-	margin-bottom: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
 }
 
 .showcase h3{
+	color: #fff;
 	font-size: 18px;
 	line-height: 16px;
 	margin: 10px 0px 0px 10px;
-	color: #fff;
+	font-family: "Merriweather-Light", "Merriweather Light", "Merriweather", "Georgia", "Times New Roman", serif;
 }
 
 .bio{
@@ -430,19 +436,23 @@
 }
 
 .showcase h4{
+	color: #fff;
 	font-size: 16px;
 	line-height: 14px;
-	margin: 10px 0px 0px 10px;
-	color: #fff;
+	margin: 12px 0px 0px 10px;
+	font-family: "Merriweather-Light", "Merriweather Light", "Merriweather", "Georgia", "Times New Roman", serif;
+
 }
 
 .showcase h5{
+	color: #fff;
 	font-size: 14px;
 	line-height: 14px;
 	margin: 10px 0px 10px 10px;
-	color: #fff;
 	font-weight: normal;
 	font-style: italic;
+	font-family: "Merriweather-Light", "Merriweather Light", "Merriweather", "Georgia", "Times New Roman", serif;
+
 }
 
 .showcase h5 a{
@@ -454,12 +464,13 @@
 }
 
 .showcase.about{
-	margin-top: 40px;
+
 }
 
 .showcase.last{
 	margin-bottom: 20px;
 }
+
 
 
 	/* Smaller than standard 960 (devices and browsers) */
