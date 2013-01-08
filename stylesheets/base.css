@@ -406,7 +406,7 @@
 
 
 .bg{
-	background-color: #3e4448;
+	background-color: #eeeeee;
 	padding: 0px 0px 10px 0px;
 }
 
@@ -424,7 +424,7 @@
 }
 
 .showcase h3{
-	color: #fff;
+	color: #333333;
 	font-size: 18px;
 	line-height: 16px;
 	margin: 10px 0px 0px 10px;
@@ -436,7 +436,7 @@
 }
 
 .showcase h4{
-	color: #fff;
+	color: #777777;
 	font-size: 16px;
 	line-height: 14px;
 	margin: 12px 0px 0px 10px;
@@ -445,7 +445,7 @@
 }
 
 .showcase h5{
-	color: #fff;
+	color: #777777;
 	font-size: 14px;
 	line-height: 14px;
 	margin: 10px 0px 10px 10px;
@@ -456,7 +456,7 @@
 }
 
 .showcase h5 a{
-	color: #fff;
+	color: #777777;
 }
 
 .showcase.about.first{
@@ -469,6 +469,10 @@
 
 .showcase.last{
 	margin-bottom: 20px;
+}
+
+.showcase img{
+	border: 1px solid #ddd; 
 }
 
 
