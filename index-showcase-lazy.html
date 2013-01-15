@@ -88,7 +88,7 @@
 		<hr />
 
 		<div class="eight columns">
-			<img class="lazy" src="images/grey.gif" data-original="images/hero.jpg">
+			<img srcl="images/hero.jpg">
 		</div>
 
 		<div class="eight columns">
@@ -1149,7 +1149,8 @@ $(window).load(function(){
 });
 
 $("img.lazy").lazyload({
-	effect : "fadeIn"
+	effect : "fadeIn",
+	threshhold: 200
 });
 </script>
 
