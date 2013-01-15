@@ -516,6 +516,12 @@
 			font-size: 20px;
 			line-height: 30px;
 		}
+
+		.call-to-action-showcase {
+			font-size: 16px;
+			line-height: 20px;
+		}
+
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -544,5 +550,18 @@
 			font-size: 18px;
 			line-height: 24px;
 		}
+
+		.bg{
+			background-color: #ffffff;
+		}
+
+		.showcase h3{
+			line-height: 22px;
+		}
+
+		.showcase h5{
+			margin-bottom: 20px;
+		}
+
 	}
 
