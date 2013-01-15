@@ -284,6 +284,12 @@
 	line-height: 32px;
 }
 
+.call-to-action-showcase {
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 35px;
+}
+
 .call-to-action-two{
 	background: #5f6366;
 	color: white;
@@ -368,6 +374,15 @@
   margin: 10px;
   float: left;
 }
+
+.item h3{
+	margin: 10px;
+	font-size: 20px;
+	font: 18px/22px "Merriweather-Light", "Merriweather Light", "Merriweather", "Georgia", "Times New Roman", serif;
+	font-style: italic;
+	color: #4a4a4a;	
+}
+
 
 .award-amount{
 	font-size: 60px;
@@ -473,6 +488,10 @@
 
 .showcase img{
 	border: 1px solid #ddd; 
+}
+
+.showcase img:hover{
+	border: 1px solid #b5d0e3; 
 }
 
 
