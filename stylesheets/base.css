@@ -378,9 +378,17 @@
 .item h3{
 	margin: 10px;
 	font-size: 20px;
-	font: 18px/22px "Merriweather-Light", "Merriweather Light", "Merriweather", "Georgia", "Times New Roman", serif;
+	font: 14px/18px "Merriweather-Light", "Merriweather Light", "Merriweather", "Georgia", "Times New Roman", serif;
 	font-style: italic;
 	color: #4a4a4a;	
+}
+
+.item h3 a{
+	text-decoration: none;
+}
+
+.item h3 a:hover{
+	text-decoration: underline;
 }
 
 
